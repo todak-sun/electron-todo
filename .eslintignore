@@ -5,3 +5,8 @@
 
 .pnp.cjs
 .pnp.loader.mjs
+
+.eslintrc.js
+prettier.config.js
+
+build

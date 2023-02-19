@@ -1,8 +1,8 @@
 /** @type {import("eslint").Linter.Config} */
 module.exports = {
-  extends: ["eslint:recommended", "plugin:@typescript-eslint/recommended", "prettier", "next/core-web-vitals"],
+  extends: ["eslint:recommended", "plugin:@typescript-eslint/recommended", "prettier", "plugin:react/recommended"],
   parser: "@typescript-eslint/parser",
-  plugins: ["@typescript-eslint", "import", "prettier"],
+  plugins: ["@typescript-eslint", "import", "prettier", "react"],
   rules: {
     // eslint
     "arrow-body-style": ["error", "as-needed"],
@@ -13,9 +13,6 @@ module.exports = {
     "no-unused-vars": "off",
     "no-use-before-define": ["error", { functions: false }],
     "sort-imports": ["error", { ignoreCase: true, ignoreDeclarationSort: true }],
-
-    // eslint-config-next
-    "@next/next/no-html-link-for-pages": "off",
 
     // eslint-plugin-react
     "react/button-has-type": "off",
