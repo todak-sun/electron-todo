@@ -7,6 +7,7 @@
 .pnp.loader.mjs
 
 .eslintrc.js
-prettier.config.js
+*.config.js
+
 
 build
